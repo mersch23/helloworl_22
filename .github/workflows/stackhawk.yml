@@ -1,9 +1,5 @@
-name: stackhawk
-on:
-  push:
-  pull_request:
-jobs:
-  applicationId: 0d359688-db79-4213-b693-7712ca223dd7
-  host: http://localhost:8000
-  env: Development
+app:
+    applicationId: 0d359688-db79-4213-b693-7712ca223dd7 
+    host: http://localhost:8000
+    env: Development
 
